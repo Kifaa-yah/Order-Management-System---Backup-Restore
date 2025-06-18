@@ -18,14 +18,15 @@ This repository demonstrates **backup and restore** procedures for my custom-bui
 
 ```
 order-management-backup-restore/
-├── README.md                # Project overview & documentation
-├── LICENSE                  # MIT License
+├── README.md                  # Project overview & documentation
+├── LICENSE                    # MIT License
 ├── backup/
-│   └── order_management_dump/    # MySQL dump folder (exported)
+│   └── order_management_dump/  # MySQL dump folder (exported)
 ├── restore/
-│   └── restore_instructions.md  # Step-by-step restore guide
+│   └── restore_instructions.md # Step-by-step restore guide
 ├── sql/
-│   └── order_management_schema.sql  # Database schema + sample data
+│   ├── order_management_schema.sql   # Database schema (CREATE TABLE)
+│   └── order_management_sample_data.sql # Sample data (INSERT queries)
 ```
 
 ## ♻️ Backup & Restore Process
@@ -47,6 +48,8 @@ order-management-backup-restore/
 4. Browse to the path → `backup/order_management_dump/`.
 5. Select or create a **new database** → e.g., `order_management_restore`.
 6. Click **Start Import**.
+
+
 
 ## 📚 License
 
