@@ -1,18 +1,6 @@
 # Order Management System - Backup & Restore
 
-This repository demonstrates **backup and restore** procedures for my custom-built **Order Management System** database using **MySQL Workbench**.
-
-## Why This Project?
-
-* To showcase practical experience with **database backup & restore**
-* To document real-life database workflows
-* To improve database management skills using MySQL Workbench
-
-## Project Features
-
-* Custom-built database schema for an **Order Management System**
-* Sample data included for demonstration
-* Complete **backup and restore process** documented
+This repository documents the backup and restore process I completed for my Order Management System database using MySQL Workbench.
 
 ## Repository Structure
 
@@ -27,13 +15,28 @@ order-management-backup-restore/
 ├── LICENSE                    # MIT License
 ```
 
+
+## About This Project
+
+As part of my learning process in database management, I:
+
+Designed and created the Order Management System database
+
+Completed a backup of the database using MySQL Workbench
+
+Successfully restored the backup into a new database instance
+
+This project is a personal record of that process.
+
+
 ## ♻️ Backup & Restore Process
 
 ### 🔹 Backup Process
 
+Click Start Export.
 1. Open **MySQL Workbench**.
 2. Go to **Server → Data Export**.
-3. Select the `order_management` database.
+3. Select the order_management database (see schema). 
 4. Choose **Export to Dump Folder**.
 5. Select destination → `backup/order_management_dump/`.
 6. Click **Start Export**.
