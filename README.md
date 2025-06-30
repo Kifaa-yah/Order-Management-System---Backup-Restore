@@ -33,18 +33,10 @@ This project is a personal record of that process.
 
 ### 🔹 Backup Process
 
-Open **MySQL Workbench**.
-Go to **Server → Data Export**.
-Select the order_management database (see schema).
-Choose Export to Dump Folder.
-Select destination → backup/order_management_dump/.
-Click **Start Export**.
-
-Click Start Export.
 Click Start Export.
 1. Open **MySQL Workbench**.
 2. Go to **Server → Data Export**.
-3. Select the order_management database (see schema). 
+3. Select the [`order_management`](https://github.com/Kifaa-yah/Order-Management-System/blob/main/sql/order_management_schema.sql) database (see schema).
 4. Choose **Export to Dump Folder**.
 5. Select destination → `backup/order_management_dump/`.
 6. Click **Start Export**.
