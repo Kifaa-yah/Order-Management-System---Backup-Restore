@@ -33,6 +33,14 @@ This project is a personal record of that process.
 
 ### 🔹 Backup Process
 
+Open **MySQL Workbench**.
+Go to **Server → Data Export**.
+Select the order_management database (see schema).
+Choose Export to Dump Folder.
+Select destination → backup/order_management_dump/.
+Click **Start Export**.
+
+Click Start Export.
 Click Start Export.
 1. Open **MySQL Workbench**.
 2. Go to **Server → Data Export**.
